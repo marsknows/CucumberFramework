@@ -17,10 +17,10 @@ import org.junit.runner.RunWith;
         //it will remove all the unnecessary unreadable characters
         monochrome = true,
         //executes scenarios with specified tags
-        tags = "@error",
+        tags = "@datatable",
         //pretty- it takes care of printing the steps in console
         //plugin - we use it to generate report for the execution
-        plugin = {"pretty","html:target/cucumber.html"}
+        plugin = {"pretty","html:target/cucumber.html","json:target/cucumber.json"}
 )
 public class Regression {
 }

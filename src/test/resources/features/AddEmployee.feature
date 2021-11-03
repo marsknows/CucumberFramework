@@ -47,11 +47,11 @@ Feature: Add Employee
   Scenario: adding an employee using data table
     When I add multiple employees and verify that user has been added successfully
     |firstName|midName|lastName|
-    |Island|Boi|Mars|
-    |Mars|Island|Boi|
-    |Mar|S|Knows|
-    |King|Mars|Knows|
-    |Mario|A|King|
+    |Island|Boi|Marz|
+    |Marz|Island|Boi|
+    |Mar|Z|Knows|
+    |King|Marz|Knows|
+    |Mario|DA|King|
 
     @excel
     Scenario: Adding an employee from excel file

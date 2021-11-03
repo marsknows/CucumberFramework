@@ -37,6 +37,9 @@ public class AddEmployeePage extends CommonMethods {
     @FindBy (id="btnSave")
     public WebElement saveBtn;
 
+    @FindBy (xpath = "(//h1)[1]")
+    public WebElement verify;
+
     public AddEmployeePage(){
         PageFactory.initElements(driver,this);
     }

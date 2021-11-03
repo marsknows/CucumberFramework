@@ -3,6 +3,7 @@ package steps;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.Assert;
 import pages.AddEmployeePage;
 import pages.DashboardPage;
 import utils.CommonMethods;
@@ -93,6 +94,11 @@ public class AddEmployeeSteps extends CommonMethods {
             sendText(add.lastName, valueLastName);
 
             click(add.saveBtn);
+
+            String actualText = add.verify.getText();
+            String expectedText = valueFirstName+" "+valueMidName+" "+valueLastName;
+
+            Assert.assertEquals(actualText,expectedText);
             //Assertion in homework
             //verify the employee has been added
 

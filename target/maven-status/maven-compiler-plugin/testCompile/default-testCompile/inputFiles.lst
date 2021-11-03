@@ -1,9 +1,11 @@
 /Users/mars_1/IdeaProjects/HRMS/src/test/java/pages/LoginPage.java
 /Users/mars_1/IdeaProjects/HRMS/src/test/java/utils/ConfigReader.java
+/Users/mars_1/IdeaProjects/HRMS/src/test/java/Runners/FailedRunner.java
 /Users/mars_1/IdeaProjects/HRMS/src/test/java/steps/DashboardSteps.java
 /Users/mars_1/IdeaProjects/HRMS/src/test/java/steps/Hooks.java
 /Users/mars_1/IdeaProjects/HRMS/src/test/java/pages/EmployeeListPage.java
 /Users/mars_1/IdeaProjects/HRMS/src/test/java/pages/AddEmployeePage.java
+/Users/mars_1/IdeaProjects/HRMS/src/test/java/Practice.java
 /Users/mars_1/IdeaProjects/HRMS/src/test/java/Runners/Regression.java
 /Users/mars_1/IdeaProjects/HRMS/src/test/java/steps/AddEmployeeSteps.java
 /Users/mars_1/IdeaProjects/HRMS/src/test/java/Runners/Smoke.java

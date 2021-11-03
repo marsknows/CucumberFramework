@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: Runners.Smoke
+Test set: Runners.Regression
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.262 s - in Runners.Smoke
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.892 s - in Runners.Regression
